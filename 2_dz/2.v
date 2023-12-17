@@ -17,19 +17,17 @@ reg [7:0] a = 0;
 reg [7:0] b = 0;
 reg [7:0] c = 0;
 reg [7:0] d = 0;
-reg [15:0] k1 = 9;
-reg [15:0] k2 = 9;
-reg [15:0] k3 = 9;
+
+reg [15:0] k1 = 0;
+reg [15:0] k2 = 0;
+reg [15:0] k3 = 0;
 reg [15:0] x = 0;
 reg [15:0] y = 0;
+
 reg [2:0] state = 0;
 reg [1:0] flag = 0;
 reg [3:0] cnt = 0;
-//reg [1:0] data_good_in = 0;
 reg [1:0] data_good_out = 0;
-
-
-  
 
 reg signed [7:0] operand1 = 0; 
 reg signed [7:0] operand2 = 0;
@@ -41,7 +39,7 @@ reg signed [15:0] result = 0;
 
 
   	always @(posedge clk) begin
-	//data_good_in <= data_valid_in;
+
     if (data_valid_in) 
 	begin
 		a <= Re_in_1;
@@ -53,13 +51,6 @@ reg signed [15:0] result = 0;
 		k1 <= result;
 		flag <= 1;
 	end
-	// if (!data_valid_in && flag == 1 ) 
-	// begin
-	// 	flag <= 0;
-	// 	data_good_out <= 0;
-	// 	state <= 1;
-	// 	//k1 <= result;
-	// end
 
 	case (state)
 		1: begin
@@ -93,12 +84,7 @@ reg signed [15:0] result = 0;
 
 		// y = k1 + k3
 		y <= k1 + k3;
-		//state <= 0;
-		// if (flag == 0) 
-		// begin
-		
-		// 	flag <= 1;
-		// end && !data_valid_in
+
 		if (flag == 1 && data_valid_in) 
 		begin
 		end else
@@ -129,7 +115,6 @@ reg signed [15:0] result = 0;
 			cnt <= 0;
 		end
 
-		//data_good_out <= 1;
 		end
 		default: begin
 		data_good_out <= 0;
@@ -137,7 +122,6 @@ reg signed [15:0] result = 0;
 	endcase
     
   end
-  
   assign Re_out = x;
   assign Im_out = y;
   assign data_valid_out = data_good_out;

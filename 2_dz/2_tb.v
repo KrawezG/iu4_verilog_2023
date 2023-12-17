@@ -16,7 +16,7 @@ initial
 
 initial
 begin
-    //first test (1+0i)*(1+0i)
+    //first test (3+1i)*(3+1i)
     Re_in_1 <= 8'sd03; 
     Im_in_1 <= 8'sd01;
     Re_in_2 <= 8'sd03;
@@ -33,7 +33,7 @@ begin
 
     #20;
 
-    //second test (0+1i)*(0+1i)
+    //second test (2+1i)*(2+1i)
     Re_in_1 <= 8'sd02; 
     Im_in_1 <= 8'sd01;
     Re_in_2 <= 8'sd02;
@@ -64,6 +64,26 @@ begin
     Im_in_1 <= 8'sd00;
     Re_in_2 <= 8'sd00;
     Im_in_2 <= 8'sd00;
+
+    #20;
+
+    //fourth test (1+2i)*(1+2i)
+    Re_in_1 <= 8'sd01; 
+    Im_in_1 <= 8'sd02;
+    Re_in_2 <= 8'sd01;
+    Im_in_2 <= 8'sd02;
+    data_valid_in <= 2'b01;
+
+    #10;
+    
+    data_valid_in <= 2'b00; 
+    Re_in_1 <= 8'sd00; 
+    Im_in_1 <= 8'sd00;
+    Re_in_2 <= 8'sd00;
+    Im_in_2 <= 8'sd00;
+
+    #200;
+
 
     #20;
 
