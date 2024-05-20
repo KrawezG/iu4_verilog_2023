@@ -3,6 +3,8 @@
 //3 y(3) = x(3)*b + y(1)*a^2 + ab*x(2) 
 //4 y(4) = x(4)*b + y(1)*a^3 + ab*x(3) + a^2*b*x(2) пошел процесс
 
+//размерность выхода - 18 бит (худший случай сложение 3 умножени1 8 бит на 8 бит - 3 раза по 16 бит плюс предыдущий результат - 17 бит)
+
 `define A_ 16'sd1
 `define A_SQUARE 16'sd1
 `define A_CUBE 16'sd1
@@ -13,18 +15,18 @@
 module IIR_1 (
     input clk,
     input signed [7:0] x, 
-    output signed [16:0] y 
+    output signed [17:0] y 
 );
 
 reg [8:0] count = 0;		// count to start of output
 reg [8:0] countdown = 0;		// count to end output
-reg signed [16 : 0] y_out = 0; // y(n)
+reg signed [17 : 0] y_out = 0; // y(n)
 reg signed [7 : 0] x_ = 0; // x(n)
 reg signed [7 : 0] x_minus1 = 0; // x(n-1)
 reg signed [7 : 0] x_minus2 = 0; // x(n-2)
 reg signed [7 : 0] x_minus3 = 0; // x(n-3)
 reg signed [7 : 0] x_minus4 = 0; // x(n-4)
-reg signed [16 : 0] y_ = 0; // y(n)
+reg signed [17 : 0] y_ = 0; // y(n)
 
 
     always @(posedge clk ) begin

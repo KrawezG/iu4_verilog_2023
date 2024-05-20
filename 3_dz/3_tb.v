@@ -12,7 +12,7 @@ initial
 
 
 reg  [7:0] data_in = 0;
-wire  [16:0] data_out;
+wire  [17:0] data_out;
 
 
 initial begin
