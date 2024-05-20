@@ -12,12 +12,12 @@
 
 module IIR_1 (
     input clk,
-    input signed [7:0] x, // Input x_k+1
-    output signed [16:0] y // Output y_k+1
+    input signed [7:0] x, 
+    output signed [16:0] y 
 );
 
-reg [8:0] count = 0;		// count to calculate all summable
-reg [8:0] countdown = 0;		// count to calculate all summable
+reg [8:0] count = 0;		// count to start of output
+reg [8:0] countdown = 0;		// count to end output
 reg signed [16 : 0] y_out = 0; // y(n)
 reg signed [7 : 0] x_ = 0; // x(n)
 reg signed [7 : 0] x_minus1 = 0; // x(n-1)
@@ -163,21 +163,21 @@ reg signed [16 : 0] y_ = 0; // y(n)
         end
     end
 
-reg signed [7 : 0] x_mult_b; 		// b * x(n) 
-reg signed [7 : 0] x_mult_a_b;	// a * b * x(n - 1)
-reg signed [7 : 0] x_mult_a_a_b;	// a^2 * b * x(n - 2)
-reg signed [15 : 0] y_mult_a;	// a^2 * y(n)
-reg signed [15 : 0] y_mult_a_square;	// a^2 * y(n - 2)
-reg signed [15 : 0] y_mult_a_cube;	// a^2 * y(n - 2)
+reg signed [7 : 0] x_mult_b; 		// b*x(n) 
+reg signed [7 : 0] x_mult_a_b;	// a*b*x(n-1)	
+reg signed [7 : 0] x_mult_a_a_b;	// a^2*b*x(n-2)
+reg signed [15 : 0] y_mult_a;	// a*y(n)
+reg signed [15 : 0] y_mult_a_square;	// a^2*y(n)
+reg signed [15 : 0] y_mult_a_cube;	// a^3*y(n)
 
-wire signed [15 : 0] out_x_mult_b; 		// b * x(n) 
-wire signed [15 : 0] out_x_mult_a_b;	// a * b * x(n - 1)
-wire signed [15 : 0] out_x_mult_a_a_b;	// a^2 * b * x(n - 2)
-wire signed [15 : 0] out_y_mult_a;	// a^2 * y(n)
-wire signed [15 : 0] out_y_mult_a_square;	// a^2 * y(n - 2)
-wire signed [15 : 0] out_y_mult_a_cube;	// a^2 * y(n - 2)
+wire signed [15 : 0] out_x_mult_b; 		// b*x(n) 
+wire signed [15 : 0] out_x_mult_a_b;	// a*b*x(n-1)	
+wire signed [15 : 0] out_x_mult_a_a_b;	// a^2*b*x(n-2)
+wire signed [15 : 0] out_y_mult_a;	// a*y(n)
+wire signed [15 : 0] out_y_mult_a_square;	// a^2*y(n)
+wire signed [15 : 0] out_y_mult_a_cube;	// a^3*y(n)
 
-// b * x(n) 			n = 1
+// b*x(n) 			
 multiplier_2cycle m_x_mult_b(
 	.clk 	(clk),
 	.mult_1	(`B),
@@ -186,7 +186,7 @@ multiplier_2cycle m_x_mult_b(
 	.res 	(out_x_mult_b)
 );
 
-// a * b * x(n - 1)		n = 2
+// a*b*x(n-1)	
 multiplier_2cycle m_x_mult_a_b(
 	.clk 	(clk),
 	.mult_1	(`A_MULT_B),
@@ -195,7 +195,7 @@ multiplier_2cycle m_x_mult_a_b(
 	.res 	(out_x_mult_a_b)
 );
 
-// a^2 * b * x(n - 2)	n = 3
+// a^2*b*x(n-2)	  
 multiplier_2cycle m_x_mult_a_a_b(
 	.clk 	(clk),
 	.mult_1	(`A_SQUARE_MULT_B),
@@ -204,7 +204,7 @@ multiplier_2cycle m_x_mult_a_a_b(
 	.res 	(out_x_mult_a_a_b)
 );
 
-// a * y(n)		n = 4
+// a*y(n)	
 multiplier_2cycle m_y_mult_a(
 	.clk 	(clk),
 	.mult_1	(`A_),
@@ -213,7 +213,7 @@ multiplier_2cycle m_y_mult_a(
 	.res 	(out_y_mult_a)
 );
 
-// a^3 * y(n - 2)		n = 4
+// a^2*y(n-1)	
 multiplier_2cycle m_y_mult_a_square(
 	.clk 	(clk),
 	.mult_1	(`A_SQUARE),
@@ -222,7 +222,7 @@ multiplier_2cycle m_y_mult_a_square(
 	.res 	(out_y_mult_a_square)
 );
 
-// a^3 * y(n - 2)		n = 4
+// a^3*y(n-2)		
 multiplier_2cycle m_y_mult_a_cube(
 	.clk 	(clk),
 	.mult_1	(`A_CUBE),
