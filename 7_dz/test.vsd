@@ -1,0 +1,2854 @@
+$date
+	Tue May 21 22:58:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module top_module $end
+$var wire 5 ! pos32 [4:0] $end
+$var wire 6 " pos64 [5:0] $end
+$var wire 3 # pos8 [2:0] $end
+$var reg 32 $ in32 [31:0] $end
+$var reg 64 % in64 [63:0] $end
+$var reg 8 & in8 [7:0] $end
+$scope module detector32 $end
+$var wire 32 ' in [31:0] $end
+$var wire 5 ( position [4:0] $end
+$var wire 32 ) procesed [31:0] $end
+$var wire 32 * reversed [31:0] $end
+$var wire 32 + inter [31:0] $end
+$var parameter 32 , LOG2_WIDTH $end
+$var parameter 32 - WIDTH $end
+$scope begin genblk1[0] $end
+$var parameter 2 . i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 / i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 0 i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 1 i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 2 i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 3 i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 4 i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 5 i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 6 i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 7 i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 8 i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 9 i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 : i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 ; i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 < i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 = i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 > i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 ? i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 @ i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 A i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 B i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 C i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 D i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 E i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 F i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 G i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 H i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 I i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 J i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 K i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 L i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 M i $end
+$upscope $end
+$scope begin genblk2[0] $end
+$var parameter 2 N j $end
+$scope begin genblk1[0] $end
+$var parameter 2 O i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 P i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 Q i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 R i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 S i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 T i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 U i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 V i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 W i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 X i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 Y i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 Z i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 [ i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 \ i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 ] i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 ^ i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 _ i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 ` i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 a i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 b i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 c i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 d i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 e i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 f i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 g i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 h i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 i i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 j i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 k i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 l i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 m i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 n i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[1] $end
+$var parameter 2 o j $end
+$scope begin genblk1[0] $end
+$var parameter 2 p i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 q i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 r i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 s i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 t i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 u i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 v i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 w i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 x i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 y i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 z i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 { i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 | i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 } i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 ~ i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 !" i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 "" i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 #" i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 $" i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 %" i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 &" i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 '" i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 (" i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 )" i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 *" i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 +" i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 ," i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 -" i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 ." i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 /" i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 0" i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 1" i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[2] $end
+$var parameter 3 2" j $end
+$scope begin genblk1[0] $end
+$var parameter 2 3" i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 4" i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 5" i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 6" i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 7" i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 8" i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 9" i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 :" i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 ;" i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 <" i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 =" i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 >" i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 ?" i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 @" i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 A" i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 B" i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 C" i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 D" i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 E" i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 F" i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 G" i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 H" i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 I" i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 J" i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 K" i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 L" i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 M" i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 N" i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 O" i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 P" i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 Q" i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 R" i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[3] $end
+$var parameter 3 S" j $end
+$scope begin genblk1[0] $end
+$var parameter 2 T" i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 U" i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 V" i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 W" i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 X" i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 Y" i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 Z" i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 [" i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 \" i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 ]" i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 ^" i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 _" i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 `" i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 a" i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 b" i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 c" i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 d" i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 e" i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 f" i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 g" i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 h" i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 i" i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 j" i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 k" i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 l" i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 m" i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 n" i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 o" i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 p" i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 q" i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 r" i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 s" i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[4] $end
+$var parameter 4 t" j $end
+$scope begin genblk1[0] $end
+$var parameter 2 u" i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 v" i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 w" i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 x" i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 y" i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 z" i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 {" i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 |" i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 }" i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 ~" i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 !# i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 "# i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 ## i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 $# i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 %# i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 &# i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 '# i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 (# i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 )# i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 *# i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 +# i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 ,# i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 -# i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 .# i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 /# i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 0# i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 1# i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 2# i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 3# i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 4# i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 5# i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 6# i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module detector64 $end
+$var wire 64 7# in [63:0] $end
+$var wire 6 8# position [5:0] $end
+$var wire 64 9# procesed [63:0] $end
+$var wire 64 :# reversed [63:0] $end
+$var wire 64 ;# inter [63:0] $end
+$var parameter 32 <# LOG2_WIDTH $end
+$var parameter 32 =# WIDTH $end
+$scope begin genblk1[0] $end
+$var parameter 2 ># i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 ?# i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 @# i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 A# i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 B# i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 C# i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 D# i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 E# i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 F# i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 G# i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 H# i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 I# i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 J# i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 K# i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 L# i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 M# i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 N# i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 O# i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 P# i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 Q# i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 R# i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 S# i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 T# i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 U# i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 V# i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 W# i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 X# i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 Y# i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 Z# i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 [# i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 \# i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 ]# i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 ^# i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 _# i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 `# i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 a# i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 b# i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 c# i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 d# i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 e# i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 f# i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 g# i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 h# i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 i# i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 j# i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 k# i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 l# i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 m# i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 n# i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 o# i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 p# i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 q# i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 r# i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 s# i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 t# i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 u# i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 v# i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 w# i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 x# i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 y# i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 z# i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 {# i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 |# i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 }# i $end
+$upscope $end
+$scope begin genblk2[0] $end
+$var parameter 2 ~# j $end
+$scope begin genblk1[0] $end
+$var parameter 2 !$ i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 "$ i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 #$ i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 $$ i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 %$ i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 &$ i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 '$ i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 ($ i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 )$ i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 *$ i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 +$ i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 ,$ i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 -$ i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 .$ i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 /$ i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 0$ i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 1$ i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 2$ i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 3$ i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 4$ i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 5$ i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 6$ i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 7$ i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 8$ i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 9$ i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 :$ i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 ;$ i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 <$ i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 =$ i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 >$ i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 ?$ i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 @$ i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 A$ i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 B$ i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 C$ i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 D$ i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 E$ i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 F$ i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 G$ i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 H$ i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 I$ i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 J$ i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 K$ i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 L$ i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 M$ i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 N$ i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 O$ i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 P$ i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 Q$ i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 R$ i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 S$ i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 T$ i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 U$ i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 V$ i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 W$ i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 X$ i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 Y$ i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 Z$ i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 [$ i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 \$ i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 ]$ i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 ^$ i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 _$ i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 `$ i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[1] $end
+$var parameter 2 a$ j $end
+$scope begin genblk1[0] $end
+$var parameter 2 b$ i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 c$ i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 d$ i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 e$ i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 f$ i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 g$ i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 h$ i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 i$ i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 j$ i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 k$ i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 l$ i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 m$ i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 n$ i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 o$ i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 p$ i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 q$ i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 r$ i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 s$ i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 t$ i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 u$ i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 v$ i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 w$ i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 x$ i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 y$ i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 z$ i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 {$ i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 |$ i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 }$ i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 ~$ i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 !% i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 "% i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 #% i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 $% i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 %% i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 &% i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 '% i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 (% i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 )% i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 *% i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 +% i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 ,% i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 -% i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 .% i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 /% i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 0% i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 1% i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 2% i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 3% i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 4% i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 5% i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 6% i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 7% i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 8% i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 9% i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 :% i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 ;% i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 <% i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 =% i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 >% i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 ?% i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 @% i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 A% i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 B% i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 C% i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[2] $end
+$var parameter 3 D% j $end
+$scope begin genblk1[0] $end
+$var parameter 2 E% i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 F% i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 G% i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 H% i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 I% i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 J% i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 K% i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 L% i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 M% i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 N% i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 O% i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 P% i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 Q% i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 R% i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 S% i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 T% i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 U% i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 V% i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 W% i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 X% i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 Y% i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 Z% i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 [% i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 \% i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 ]% i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 ^% i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 _% i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 `% i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 a% i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 b% i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 c% i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 d% i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 e% i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 f% i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 g% i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 h% i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 i% i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 j% i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 k% i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 l% i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 m% i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 n% i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 o% i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 p% i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 q% i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 r% i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 s% i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 t% i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 u% i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 v% i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 w% i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 x% i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 y% i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 z% i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 {% i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 |% i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 }% i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 ~% i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 !& i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 "& i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 #& i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 $& i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 %& i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 && i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[3] $end
+$var parameter 3 '& j $end
+$scope begin genblk1[0] $end
+$var parameter 2 (& i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 )& i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 *& i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 +& i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 ,& i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 -& i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 .& i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 /& i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 0& i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 1& i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 2& i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 3& i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 4& i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 5& i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 6& i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 7& i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 8& i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 9& i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 :& i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 ;& i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 <& i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 =& i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 >& i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 ?& i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 @& i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 A& i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 B& i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 C& i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 D& i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 E& i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 F& i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 G& i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 H& i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 I& i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 J& i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 K& i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 L& i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 M& i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 N& i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 O& i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 P& i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 Q& i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 R& i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 S& i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 T& i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 U& i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 V& i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 W& i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 X& i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 Y& i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 Z& i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 [& i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 \& i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 ]& i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 ^& i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 _& i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 `& i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 a& i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 b& i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 c& i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 d& i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 e& i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 f& i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 g& i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[4] $end
+$var parameter 4 h& j $end
+$scope begin genblk1[0] $end
+$var parameter 2 i& i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 j& i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 k& i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 l& i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 m& i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 n& i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 o& i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 p& i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 q& i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 r& i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 s& i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 t& i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 u& i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 v& i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 w& i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 x& i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 y& i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 z& i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 {& i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 |& i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 }& i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 ~& i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 !' i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 "' i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 #' i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 $' i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 %' i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 &' i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 '' i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 (' i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 )' i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 *' i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 +' i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 ,' i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 -' i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 .' i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 /' i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 0' i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 1' i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 2' i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 3' i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 4' i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 5' i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 6' i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 7' i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 8' i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 9' i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 :' i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 ;' i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 <' i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 =' i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 >' i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 ?' i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 @' i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 A' i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 B' i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 C' i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 D' i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 E' i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 F' i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 G' i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 H' i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 I' i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 J' i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[5] $end
+$var parameter 4 K' j $end
+$scope begin genblk1[0] $end
+$var parameter 2 L' i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 M' i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 N' i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 O' i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 P' i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 Q' i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 R' i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 S' i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 T' i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 U' i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 V' i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 W' i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 X' i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 Y' i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 Z' i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 [' i $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 \' i $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 ]' i $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 ^' i $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 _' i $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 `' i $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 a' i $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 b' i $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 c' i $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 d' i $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 e' i $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 f' i $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 g' i $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 h' i $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 i' i $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 j' i $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 k' i $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 l' i $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 m' i $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 n' i $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 o' i $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 p' i $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 q' i $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 r' i $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 s' i $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 t' i $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 u' i $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 v' i $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 w' i $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 x' i $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 y' i $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 z' i $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 {' i $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 |' i $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 }' i $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 ~' i $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 !( i $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 "( i $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 #( i $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 $( i $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 %( i $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 &( i $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 '( i $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 (( i $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 )( i $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 *( i $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 +( i $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 ,( i $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 -( i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module detector8 $end
+$var wire 8 .( in [7:0] $end
+$var wire 3 /( position [2:0] $end
+$var wire 8 0( procesed [7:0] $end
+$var wire 8 1( reversed [7:0] $end
+$var wire 8 2( inter [7:0] $end
+$var parameter 32 3( LOG2_WIDTH $end
+$var parameter 32 4( WIDTH $end
+$scope begin genblk1[0] $end
+$var parameter 2 5( i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 6( i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 7( i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 8( i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 9( i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 :( i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 ;( i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 <( i $end
+$upscope $end
+$scope begin genblk2[0] $end
+$var parameter 2 =( j $end
+$scope begin genblk1[0] $end
+$var parameter 2 >( i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 ?( i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 @( i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 A( i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 B( i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 C( i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 D( i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 E( i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[1] $end
+$var parameter 2 F( j $end
+$scope begin genblk1[0] $end
+$var parameter 2 G( i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 H( i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 I( i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 J( i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 K( i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 L( i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 M( i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 N( i $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[2] $end
+$var parameter 3 O( j $end
+$scope begin genblk1[0] $end
+$var parameter 2 P( i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 Q( i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 R( i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 S( i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 T( i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 U( i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 V( i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 W( i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 W(
+b110 V(
+b101 U(
+b100 T(
+b11 S(
+b10 R(
+b1 Q(
+b0 P(
+b10 O(
+b111 N(
+b110 M(
+b101 L(
+b100 K(
+b11 J(
+b10 I(
+b1 H(
+b0 G(
+b1 F(
+b111 E(
+b110 D(
+b101 C(
+b100 B(
+b11 A(
+b10 @(
+b1 ?(
+b0 >(
+b0 =(
+b111 <(
+b110 ;(
+b101 :(
+b100 9(
+b11 8(
+b10 7(
+b1 6(
+b0 5(
+b1000 4(
+b11 3(
+b111111 -(
+b111110 ,(
+b111101 +(
+b111100 *(
+b111011 )(
+b111010 ((
+b111001 '(
+b111000 &(
+b110111 %(
+b110110 $(
+b110101 #(
+b110100 "(
+b110011 !(
+b110010 ~'
+b110001 }'
+b110000 |'
+b101111 {'
+b101110 z'
+b101101 y'
+b101100 x'
+b101011 w'
+b101010 v'
+b101001 u'
+b101000 t'
+b100111 s'
+b100110 r'
+b100101 q'
+b100100 p'
+b100011 o'
+b100010 n'
+b100001 m'
+b100000 l'
+b11111 k'
+b11110 j'
+b11101 i'
+b11100 h'
+b11011 g'
+b11010 f'
+b11001 e'
+b11000 d'
+b10111 c'
+b10110 b'
+b10101 a'
+b10100 `'
+b10011 _'
+b10010 ^'
+b10001 ]'
+b10000 \'
+b1111 ['
+b1110 Z'
+b1101 Y'
+b1100 X'
+b1011 W'
+b1010 V'
+b1001 U'
+b1000 T'
+b111 S'
+b110 R'
+b101 Q'
+b100 P'
+b11 O'
+b10 N'
+b1 M'
+b0 L'
+b101 K'
+b111111 J'
+b111110 I'
+b111101 H'
+b111100 G'
+b111011 F'
+b111010 E'
+b111001 D'
+b111000 C'
+b110111 B'
+b110110 A'
+b110101 @'
+b110100 ?'
+b110011 >'
+b110010 ='
+b110001 <'
+b110000 ;'
+b101111 :'
+b101110 9'
+b101101 8'
+b101100 7'
+b101011 6'
+b101010 5'
+b101001 4'
+b101000 3'
+b100111 2'
+b100110 1'
+b100101 0'
+b100100 /'
+b100011 .'
+b100010 -'
+b100001 ,'
+b100000 +'
+b11111 *'
+b11110 )'
+b11101 ('
+b11100 ''
+b11011 &'
+b11010 %'
+b11001 $'
+b11000 #'
+b10111 "'
+b10110 !'
+b10101 ~&
+b10100 }&
+b10011 |&
+b10010 {&
+b10001 z&
+b10000 y&
+b1111 x&
+b1110 w&
+b1101 v&
+b1100 u&
+b1011 t&
+b1010 s&
+b1001 r&
+b1000 q&
+b111 p&
+b110 o&
+b101 n&
+b100 m&
+b11 l&
+b10 k&
+b1 j&
+b0 i&
+b100 h&
+b111111 g&
+b111110 f&
+b111101 e&
+b111100 d&
+b111011 c&
+b111010 b&
+b111001 a&
+b111000 `&
+b110111 _&
+b110110 ^&
+b110101 ]&
+b110100 \&
+b110011 [&
+b110010 Z&
+b110001 Y&
+b110000 X&
+b101111 W&
+b101110 V&
+b101101 U&
+b101100 T&
+b101011 S&
+b101010 R&
+b101001 Q&
+b101000 P&
+b100111 O&
+b100110 N&
+b100101 M&
+b100100 L&
+b100011 K&
+b100010 J&
+b100001 I&
+b100000 H&
+b11111 G&
+b11110 F&
+b11101 E&
+b11100 D&
+b11011 C&
+b11010 B&
+b11001 A&
+b11000 @&
+b10111 ?&
+b10110 >&
+b10101 =&
+b10100 <&
+b10011 ;&
+b10010 :&
+b10001 9&
+b10000 8&
+b1111 7&
+b1110 6&
+b1101 5&
+b1100 4&
+b1011 3&
+b1010 2&
+b1001 1&
+b1000 0&
+b111 /&
+b110 .&
+b101 -&
+b100 ,&
+b11 +&
+b10 *&
+b1 )&
+b0 (&
+b11 '&
+b111111 &&
+b111110 %&
+b111101 $&
+b111100 #&
+b111011 "&
+b111010 !&
+b111001 ~%
+b111000 }%
+b110111 |%
+b110110 {%
+b110101 z%
+b110100 y%
+b110011 x%
+b110010 w%
+b110001 v%
+b110000 u%
+b101111 t%
+b101110 s%
+b101101 r%
+b101100 q%
+b101011 p%
+b101010 o%
+b101001 n%
+b101000 m%
+b100111 l%
+b100110 k%
+b100101 j%
+b100100 i%
+b100011 h%
+b100010 g%
+b100001 f%
+b100000 e%
+b11111 d%
+b11110 c%
+b11101 b%
+b11100 a%
+b11011 `%
+b11010 _%
+b11001 ^%
+b11000 ]%
+b10111 \%
+b10110 [%
+b10101 Z%
+b10100 Y%
+b10011 X%
+b10010 W%
+b10001 V%
+b10000 U%
+b1111 T%
+b1110 S%
+b1101 R%
+b1100 Q%
+b1011 P%
+b1010 O%
+b1001 N%
+b1000 M%
+b111 L%
+b110 K%
+b101 J%
+b100 I%
+b11 H%
+b10 G%
+b1 F%
+b0 E%
+b10 D%
+b111111 C%
+b111110 B%
+b111101 A%
+b111100 @%
+b111011 ?%
+b111010 >%
+b111001 =%
+b111000 <%
+b110111 ;%
+b110110 :%
+b110101 9%
+b110100 8%
+b110011 7%
+b110010 6%
+b110001 5%
+b110000 4%
+b101111 3%
+b101110 2%
+b101101 1%
+b101100 0%
+b101011 /%
+b101010 .%
+b101001 -%
+b101000 ,%
+b100111 +%
+b100110 *%
+b100101 )%
+b100100 (%
+b100011 '%
+b100010 &%
+b100001 %%
+b100000 $%
+b11111 #%
+b11110 "%
+b11101 !%
+b11100 ~$
+b11011 }$
+b11010 |$
+b11001 {$
+b11000 z$
+b10111 y$
+b10110 x$
+b10101 w$
+b10100 v$
+b10011 u$
+b10010 t$
+b10001 s$
+b10000 r$
+b1111 q$
+b1110 p$
+b1101 o$
+b1100 n$
+b1011 m$
+b1010 l$
+b1001 k$
+b1000 j$
+b111 i$
+b110 h$
+b101 g$
+b100 f$
+b11 e$
+b10 d$
+b1 c$
+b0 b$
+b1 a$
+b111111 `$
+b111110 _$
+b111101 ^$
+b111100 ]$
+b111011 \$
+b111010 [$
+b111001 Z$
+b111000 Y$
+b110111 X$
+b110110 W$
+b110101 V$
+b110100 U$
+b110011 T$
+b110010 S$
+b110001 R$
+b110000 Q$
+b101111 P$
+b101110 O$
+b101101 N$
+b101100 M$
+b101011 L$
+b101010 K$
+b101001 J$
+b101000 I$
+b100111 H$
+b100110 G$
+b100101 F$
+b100100 E$
+b100011 D$
+b100010 C$
+b100001 B$
+b100000 A$
+b11111 @$
+b11110 ?$
+b11101 >$
+b11100 =$
+b11011 <$
+b11010 ;$
+b11001 :$
+b11000 9$
+b10111 8$
+b10110 7$
+b10101 6$
+b10100 5$
+b10011 4$
+b10010 3$
+b10001 2$
+b10000 1$
+b1111 0$
+b1110 /$
+b1101 .$
+b1100 -$
+b1011 ,$
+b1010 +$
+b1001 *$
+b1000 )$
+b111 ($
+b110 '$
+b101 &$
+b100 %$
+b11 $$
+b10 #$
+b1 "$
+b0 !$
+b0 ~#
+b111111 }#
+b111110 |#
+b111101 {#
+b111100 z#
+b111011 y#
+b111010 x#
+b111001 w#
+b111000 v#
+b110111 u#
+b110110 t#
+b110101 s#
+b110100 r#
+b110011 q#
+b110010 p#
+b110001 o#
+b110000 n#
+b101111 m#
+b101110 l#
+b101101 k#
+b101100 j#
+b101011 i#
+b101010 h#
+b101001 g#
+b101000 f#
+b100111 e#
+b100110 d#
+b100101 c#
+b100100 b#
+b100011 a#
+b100010 `#
+b100001 _#
+b100000 ^#
+b11111 ]#
+b11110 \#
+b11101 [#
+b11100 Z#
+b11011 Y#
+b11010 X#
+b11001 W#
+b11000 V#
+b10111 U#
+b10110 T#
+b10101 S#
+b10100 R#
+b10011 Q#
+b10010 P#
+b10001 O#
+b10000 N#
+b1111 M#
+b1110 L#
+b1101 K#
+b1100 J#
+b1011 I#
+b1010 H#
+b1001 G#
+b1000 F#
+b111 E#
+b110 D#
+b101 C#
+b100 B#
+b11 A#
+b10 @#
+b1 ?#
+b0 >#
+b1000000 =#
+b110 <#
+b11111 6#
+b11110 5#
+b11101 4#
+b11100 3#
+b11011 2#
+b11010 1#
+b11001 0#
+b11000 /#
+b10111 .#
+b10110 -#
+b10101 ,#
+b10100 +#
+b10011 *#
+b10010 )#
+b10001 (#
+b10000 '#
+b1111 &#
+b1110 %#
+b1101 $#
+b1100 ##
+b1011 "#
+b1010 !#
+b1001 ~"
+b1000 }"
+b111 |"
+b110 {"
+b101 z"
+b100 y"
+b11 x"
+b10 w"
+b1 v"
+b0 u"
+b100 t"
+b11111 s"
+b11110 r"
+b11101 q"
+b11100 p"
+b11011 o"
+b11010 n"
+b11001 m"
+b11000 l"
+b10111 k"
+b10110 j"
+b10101 i"
+b10100 h"
+b10011 g"
+b10010 f"
+b10001 e"
+b10000 d"
+b1111 c"
+b1110 b"
+b1101 a"
+b1100 `"
+b1011 _"
+b1010 ^"
+b1001 ]"
+b1000 \"
+b111 ["
+b110 Z"
+b101 Y"
+b100 X"
+b11 W"
+b10 V"
+b1 U"
+b0 T"
+b11 S"
+b11111 R"
+b11110 Q"
+b11101 P"
+b11100 O"
+b11011 N"
+b11010 M"
+b11001 L"
+b11000 K"
+b10111 J"
+b10110 I"
+b10101 H"
+b10100 G"
+b10011 F"
+b10010 E"
+b10001 D"
+b10000 C"
+b1111 B"
+b1110 A"
+b1101 @"
+b1100 ?"
+b1011 >"
+b1010 ="
+b1001 <"
+b1000 ;"
+b111 :"
+b110 9"
+b101 8"
+b100 7"
+b11 6"
+b10 5"
+b1 4"
+b0 3"
+b10 2"
+b11111 1"
+b11110 0"
+b11101 /"
+b11100 ."
+b11011 -"
+b11010 ,"
+b11001 +"
+b11000 *"
+b10111 )"
+b10110 ("
+b10101 '"
+b10100 &"
+b10011 %"
+b10010 $"
+b10001 #"
+b10000 ""
+b1111 !"
+b1110 ~
+b1101 }
+b1100 |
+b1011 {
+b1010 z
+b1001 y
+b1000 x
+b111 w
+b110 v
+b101 u
+b100 t
+b11 s
+b10 r
+b1 q
+b0 p
+b1 o
+b11111 n
+b11110 m
+b11101 l
+b11100 k
+b11011 j
+b11010 i
+b11001 h
+b11000 g
+b10111 f
+b10110 e
+b10101 d
+b10100 c
+b10011 b
+b10010 a
+b10001 `
+b10000 _
+b1111 ^
+b1110 ]
+b1101 \
+b1100 [
+b1011 Z
+b1010 Y
+b1001 X
+b1000 W
+b111 V
+b110 U
+b101 T
+b100 S
+b11 R
+b10 Q
+b1 P
+b0 O
+b0 N
+b11111 M
+b11110 L
+b11101 K
+b11100 J
+b11011 I
+b11010 H
+b11001 G
+b11000 F
+b10111 E
+b10110 D
+b10101 C
+b10100 B
+b10011 A
+b10010 @
+b10001 ?
+b10000 >
+b1111 =
+b1110 <
+b1101 ;
+b1100 :
+b1011 9
+b1010 8
+b1001 7
+b1000 6
+b111 5
+b110 4
+b101 3
+b100 2
+b11 1
+b10 0
+b1 /
+b0 .
+b100000 -
+b101 ,
+$end
+#0
+$dumpvars
+b0 2(
+b0 1(
+b0 0(
+b0 /(
+b0 .(
+b0 ;#
+b0 :#
+b0 9#
+b0 8#
+b0 7#
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+bx0 #
+bx0 /(
+b1000000 2(
+b10 0(
+b11110010 1(
+b1001111 &
+b1001111 .(
+#20
+bx0x00 !
+bx0x00 (
+b0 #
+b0 /(
+b100000000000000000000 +
+b1 2(
+b100000000000 )
+b10000000 0(
+b11111111111111111111100000000000 *
+b10000000 1(
+b111111111111111111111 $
+b111111111111111111111 '
+b1 &
+b1 .(
+#30
+bx00x00 "
+bx00x00 8#
+b1000000000000000000000000000000000000 ;#
+b1000000000000000000000000000 9#
+b111111111111111111111000000000000000000000000000 :#
+b1111111111111111111110000000000000000 %
+b1111111111111111111110000000000000000 7#
+#70
