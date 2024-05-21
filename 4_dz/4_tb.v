@@ -2,8 +2,6 @@
 
 module spi_receiver_tb();
 
-// odds a = -2, b, = 3
-// IIR filter - y(n) = a * y(n - 1) + b * x(n)
 
 reg clk = 0;
 
